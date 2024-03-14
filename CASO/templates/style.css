@@ -1,0 +1,59 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para el contenedor de la barra de navegación */
+.nav-bar {
+    background-color: #333;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    padding: 0;
+}
+
+/* Estilo para los enlaces en la barra de navegación */
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav-item:hover {
+    background-color: #555;
+}
+
+/* Estilo para el contenedor del selector de opciones */
+#opciones {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo para las celdas de la tabla */
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilo para las filas impares de la tabla */
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
